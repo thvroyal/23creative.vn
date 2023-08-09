@@ -1,22 +1,34 @@
-# next-template
+# 23 Creative VN
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+An e-sports company website that supply production value for e-sport events.
 
-## Usage
+## About this project
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+This project has Landing page for marketing, Donate Gateway, Talents, Events, ... created by **@thvroyal** using Next.js, TailwindCSS.
+
+## Roadmap
+
+- [x] Build Donate Gateway
+- [x] Build TI12 Buy Ticket page
+- [x] Responsive styles
+- [x] Add OG image for blog using @vercel/og
+
+## Running Locally
+
+1. Install dependencies using pnpm:
+
+```sh
+yarn
 ```
 
-## Features
+2. Copy `.env.example` to `.env.local` and update the variables.
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+```sh
+cp .env.example .env.local
+```
 
-## License
+3. Start the development server:
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+```sh
+yarn dev
+```
