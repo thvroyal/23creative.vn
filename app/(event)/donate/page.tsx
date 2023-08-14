@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 
-export const configData = {
+const configData = {
   promoteCaption: `“Mỗi ủng hộ là góp chung tay cho một mùa Pubstomp đàng hoàng hơn, to đẹp hơn”`,
 }
 
@@ -27,7 +27,7 @@ const formSchema = z.object({
   message: z.string(),
 })
 
-export type DonateForm = z.infer<typeof formSchema>
+type DonateForm = z.infer<typeof formSchema>
 
 export default function DonatePage() {
   const form = useForm<DonateForm>({
